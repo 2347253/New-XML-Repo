@@ -3,4 +3,4 @@
 <!ELEMENT alien (name,salary)>
 <!ELEMENT name (#PCDATA)>
 <!ATTLIST alien aid ID #REQUIRED>
-<!ATTLIST alien lang (C|Java|Cobol) "Java">
+<!ATTLIST alien lang (C|Java|Python) "Java">
