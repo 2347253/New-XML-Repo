@@ -2,5 +2,6 @@
 <!ELEMENT aliens (alien+)>
 <!ELEMENT alien (name,salary)>
 <!ELEMENT name (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
 <!ATTLIST alien aid ID #REQUIRED>
 <!ATTLIST alien lang (C|Java|Python) "Java">
